@@ -1,0 +1,168 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgba(18, 5, 14, 0.812);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: .9;
+    position: sticky;
+    top: 0;
+}   
+
+header img {
+    width: 100px;
+    align-content: flex-start;
+}
+
+ul {
+    list-style: none;
+
+}
+
+nav ul {
+    display:flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+
+li a {
+    color: rgb(202, 218, 228);
+    background-color: rgba(32, 33, 35, 0.552);
+    padding: 5px 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url(../img/Banner\ PMQZ\ web.png);
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+    height: 480px;
+    width: 100%;
+} 
+
+main {
+    margin: 50px 0;
+}
+
+h1 {
+ text-align: center;
+ margin: 20px 0;
+ color: hsl(0, 4%, 55%);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: hsla(235, 48%, 41%, 0.804);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   h4 {
+    text-align: center;
+    margin: 20px 0;
+    color: hsl(307, 35%, 34%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+.fondo-parrafos {
+    margin:0 auto;
+    width: 85%;
+    color: rgb(52, 142, 188);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium
+}
+
+.formulario {
+    width: 200%;
+    max-width: 260px;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .formulario button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+  .iconos-redes{
+    width: max-content;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+.creditos {
+color: whitesmoke;
+width: max-content;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/*reducir tamaño de fotos de index y sobre mi*/
+
+div img {
+    justify-content: center;
+   max-block-size: 0%;
+   
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+      margin: 5%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
